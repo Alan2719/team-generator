@@ -1,0 +1,42 @@
+Homework
+
+1. - The application needs to prompt the user for the information about the team manager, engineers 
+and interns. There can be as much as team members the user want.
+
+2. - The application needs to create a HTML file that will display the information of all the team
+members. 
+
+3. - Use the inuirer npm package to prompt for the email, id, specific information based on the role.
+Intern: shool; engineer: Github username; etc.
+
+4.  - Create a CLI.js. This file will gather all the information of each employee. 
+
+5. - Create multiple HTML templates for each type of user. All HTML files will gather in the main HTML.
+
+6. - Try to make methods as simple as possible. 
+
+7. - The different employee types should all inherit some methods and properties from a base class of
+employee. 
+
+8. - In the HTML template files, you may want to add a placeholer character that helps your program
+identify where the dynamic markup begins and ends. 
+
+9. - Required classes: Employee, Manager, Engineer, Intern. 
+
+10. - Required properties and methods for Employee class: name, id, email, getName(), getId(), getEmail(),
+getRole() --> Returns Employee.
+
+11. - The other classes must extend from Employee class.
+
+12. - Manager must have this extra properties: officeNumber, getRole() --> Overridden to return 'Manager'
+
+13. - Engineer must have this extra properties: github username, getGitub(), getRole() --> Overridden
+to return "Engineer".
+
+14. - Intern must have this extra properties: school, getSchool(), getRole() --> Overridden to return
+'Intern'.
+
+15. - The project must prompt the user to build an engineer team which includes a manager, engineers 
+and interns. 
+
+16. - The project must generate a team.html file in the output directory. 
